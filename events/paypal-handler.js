@@ -1,4 +1,5 @@
 const axios = require("axios");
+require("dotenv").config();
 
 const PAYPAL_CLIENT_ID = "YOUR_SANDBOX_CLIENT_ID";
 const PAYPAL_SECRET = "YOUR_SANDBOX_SECRET";

@@ -17,6 +17,7 @@ const blockedLinks = [
   "a7a",
   "احا",
 ];
+require("dotenv").config();
 
 module.exports = (client) => {
   client.on("messageCreate", async (message) => {

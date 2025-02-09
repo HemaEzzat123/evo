@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 module.exports = (client) => {
   client.on("guildMemberAdd", async (member) => {
     const verificationChannel = client.channels.cache.get(

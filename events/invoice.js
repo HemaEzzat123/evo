@@ -1,3 +1,4 @@
+require("dotenv").config();
 module.exports = {
   data: require("../commands/create-invoice"),
   async execute(interaction) {

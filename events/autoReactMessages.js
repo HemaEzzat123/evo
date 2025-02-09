@@ -1,4 +1,6 @@
 module.exports = (client) => {
+  require("dotenv").config();
+
   client.on("messageCreate", async (message) => {
     // Replace with your target channel ID
     const targetChannelId = "1336266187801235502";

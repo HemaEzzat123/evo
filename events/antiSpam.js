@@ -1,4 +1,5 @@
 const messageCache = new Map();
+require("dotenv").config();
 
 module.exports = (client) => {
   client.on("messageCreate", async (message) => {

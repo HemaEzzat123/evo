@@ -6,6 +6,7 @@ const {
 } = require("discord.js");
 const paypal = require("@paypal/checkout-server-sdk");
 const fs = require("fs");
+require("dotenv").config();
 
 // PayPal Configuration
 const Environment =

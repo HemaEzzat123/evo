@@ -6,6 +6,7 @@ const {
   ButtonStyle,
   ActionRowBuilder,
 } = require("discord.js");
+require("dotenv").config();
 
 // إعداد البوت
 const client = new Client({

@@ -10,6 +10,7 @@ const {
   Collection,
   Colors,
 } = require("discord.js");
+require("dotenv").config();
 
 // const config = require("../config.json");
 const fs = require("fs");

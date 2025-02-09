@@ -1,4 +1,5 @@
 const { AuditLogEvent, PermissionsBitField } = require("discord.js");
+require("dotenv").config();
 
 module.exports = (client) => {
   client.on("guildAuditLogEntryCreate", async (entry, guild) => {

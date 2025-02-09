@@ -1,4 +1,5 @@
 const { SlashCommandBuilder } = require("discord.js");
+require("dotenv").config();
 
 const createPaymentCommand = new SlashCommandBuilder()
   .setName("create-invoice")

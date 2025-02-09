@@ -1,5 +1,6 @@
-const {  AttachmentBuilder } = require("discord.js");
+const { AttachmentBuilder } = require("discord.js");
 const Canvas = require("canvas");
+require("dotenv").config();
 
 module.exports = (client) => {
   client.on("guildMemberAdd", async (member) => {

@@ -1,4 +1,5 @@
 module.exports = (client) => {
+  require("dotenv").config();
   client.on("messageCreate", async (message) => {
     if (!message.content.startsWith(process.env.PREFIX) || message.author.bot)
       return;

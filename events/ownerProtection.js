@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { AuditLogEvent, PermissionsBitField } = require("discord.js");
 
 module.exports = (client) => {
