@@ -1,9 +1,9 @@
 module.exports = (client) => {
   client.on("messageCreate", async (message) => {
-    if (!message.content.startsWith(client.config.PREFIX) || message.author.bot)
+    if (!message.content.startsWith(process.env.PREFIX) || message.author.bot)
       return;
     const args = message.content
-      .slice(client.config.PREFIX.length)
+      .slice(process.env.PREFIX.length)
       .trim()
       .split(/ +/);
     const command = args.shift().toLowerCase();

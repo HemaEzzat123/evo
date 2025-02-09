@@ -2,7 +2,7 @@ const { EmbedBuilder } = require("discord.js");
 
 module.exports = (client) => {
   client.on("guildMemberAdd", async (member) => {
-    const logChannel = client.channels.cache.get(client.config.LOG_CHANNEL_ID);
+    const logChannel = client.channels.cache.get(process.env.LOG_CHANNEL_ID);
     if (!logChannel) return;
 
     const embed = new EmbedBuilder()
