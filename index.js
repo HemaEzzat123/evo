@@ -34,7 +34,17 @@ const client = new Client({
 });
 
 // إعدادات البوت
-// client.config = config;
+client.config = {
+  PREFIX: process.env.PREFIX,
+  VERIFICATION_CHANNEL_ID: process.env.VERIFICATION_CHANNEL_ID,
+  LOG_CHANNEL_ID: process.env.LOG_CHANNEL_ID,
+  TOKEN: process.env.TOKEN,
+  GUILD_ID: process.env.GUILD_ID,
+  PAYPAL_CLIENT_ID: process.env.PAYPAL_CLIENT_ID,
+  PAYPAL_CLIENT_SECRET: process.env.PAYPAL_CLIENT_SECRET,
+  PAYPAL_MODE: process.env.PAYPAL_MODE,
+  api: process.env.api,
+};
 client.commands = new Collection();
 
 // تحميل الفواتير عند بدء التشغيل
@@ -49,20 +59,20 @@ client.once("ready", () => {
 });
 
 // حدث "interactionCreate" - معالجة التفاعلات
-client.on("interactionCreate", async (interaction) => {
-  try {
-    if (interaction.isButton()) {
-      await buttonHandler.handleButtonInteraction(interaction, client);
-    }
+// client.on("interactionCreate", async (interaction) => {
+//   try {
+//     if (interaction.isButton()) {
+//       await buttonHandler.handleButtonInteraction(interaction, client);
+//     }
 
-    // معالجة أوامر الدفع والتفاعلات
-    // await paypalHandler.handlePaymentCommand(interaction, client);
-    // await paypalHandler.handlePaymentInteraction(interaction, client);
-    await invoice.handleInvoiceInteraction(interaction, client);
-  } catch (error) {
-    console.error("Error handling interaction:", error);
-  }
-});
+//     // معالجة أوامر الدفع والتفاعلات
+//     // await paypalHandler.handlePaymentCommand(interaction, client);
+//     // await paypalHandler.handlePaymentInteraction(interaction, client);
+//     await invoice.handleInvoiceInteraction(interaction, client);
+//   } catch (error) {
+//     console.error("Error handling interaction:", error);
+//   }
+// });
 
 // حدث "error" - معالجة الأخطاء
 client.on("error", (error) => {
