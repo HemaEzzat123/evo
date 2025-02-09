@@ -160,4 +160,4 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 // تسجيل الدخول باستخدام التوكن الخاص بالبوت
-client.login(config.TOKEN);
+client.login(process.env.TOKEN);
