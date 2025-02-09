@@ -1,6 +1,6 @@
 require("dotenv").config();
 const { Client, GatewayIntentBits, Collection } = require("discord.js");
-const config = require("./config.json");
+// const config = require("./config.json");
 
 // استيراد الوحدات
 const paypalHandler = require("./events/paypal");
@@ -34,7 +34,7 @@ const client = new Client({
 });
 
 // إعدادات البوت
-client.config = config;
+// client.config = config;
 client.commands = new Collection();
 
 // تحميل الفواتير عند بدء التشغيل
@@ -75,4 +75,4 @@ process.on("unhandledRejection", (error) => {
 });
 
 // تسجيل دخول البوت
-client.login(config.TOKEN);
+client.login(process.env.TOKEN);
