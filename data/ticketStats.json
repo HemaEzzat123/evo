@@ -1,0 +1,121 @@
+{
+  "totalTickets": 10,
+  "activeTickets": 3,
+  "resolvedTickets": 7,
+  "ticketHistory": [
+    {
+      "ticketId": "TICKET-1738662729549",
+      "userId": "700093890669183076",
+      "username": "hezzat",
+      "type": "تصميم بكج",
+      "status": "closed",
+      "createdAt": "2025-02-04T09:52:09.549Z",
+      "closedAt": "2025-02-04T09:53:20.040Z",
+      "channelId": "1336273083333480498",
+      "claimedBy": "hezzat",
+      "transcript": "bot1335720859385598056#7283 (٥‏/٨‏/١٤٤٦ هـ، ١١:٥٢:١٠ ص): \nbot1335720859385598056#7283 (٥‏/٨‏/١٤٤٦ هـ، ١١:٥٢:٢٧ ص): \nbot1335720859385598056#7283 (٥‏/٨‏/١٤٤٦ هـ، ١١:٥٢:٣٥ ص): \nhezzat (٥‏/٨‏/١٤٤٦ هـ، ١١:٥٢:٤٢ ص): hello how can i help you\nbot1335720859385598056#7283 (٥‏/٨‏/١٤٤٦ هـ، ١١:٥٢:٤٣ ص): I don't need help!  I'm a large language model, and I'm here to help *you*.  How can I assist you today?\nhezzat (٥‏/٨‏/١٤٤٦ هـ، ١١:٥٢:٤٧ ص): not you\nbot1335720859385598056#7283 (٥‏/٨‏/١٤٤٦ هـ، ١١:٥٢:٤٨ ص): Okay.  I understand."
+    },
+    {
+      "ticketId": "TICKET-1738663362804",
+      "userId": "700093890669183076",
+      "username": "hezzat",
+      "type": "تصميم أخرى",
+      "status": "closed",
+      "createdAt": "2025-02-04T10:02:42.804Z",
+      "closedAt": "2025-02-04T10:04:00.270Z",
+      "channelId": "1336275739049328663",
+      "claimedBy": "hezzat"
+    },
+    {
+      "ticketId": "TICKET-1738668303609",
+      "userId": "700093890669183076",
+      "username": "hezzat",
+      "type": "تصميم شعار",
+      "status": "closed",
+      "createdAt": "2025-02-04T11:25:03.609Z",
+      "closedAt": "2025-02-04T11:25:37.162Z",
+      "channelId": "1336296462044364812",
+      "claimedBy": "hezzat",
+      "transcript": "bot1335720859385598056#7283 (٥‏/٨‏/١٤٤٦ هـ، ١:٢٥:٠٤ م): \nbot1335720859385598056#7283 (٥‏/٨‏/١٤٤٦ هـ، ١:٢٥:٠٩ م): "
+    },
+    {
+      "ticketId": "TICKET-1738668812099",
+      "userId": "700093890669183076",
+      "username": "hezzat",
+      "type": "تصميم بكج",
+      "status": "closed",
+      "createdAt": "2025-02-04T11:33:32.099Z",
+      "closedAt": "2025-02-04T11:33:37.579Z",
+      "channelId": "1336298594998812672",
+      "claimedBy": null
+    },
+    {
+      "ticketId": "TICKET-1738707687589",
+      "userId": "591301755078180864",
+      "username": "bombeno",
+      "type": "تصميم بكج",
+      "status": "closed",
+      "createdAt": "2025-02-04T22:21:27.589Z",
+      "closedAt": "2025-02-04T22:23:39.869Z",
+      "channelId": "1336461648365617242",
+      "claimedBy": "hezzat"
+    },
+    {
+      "ticketId": "TICKET-1738707873033",
+      "userId": "591301755078180864",
+      "username": "bombeno",
+      "type": "تصميم بكج",
+      "status": "active",
+      "createdAt": "2025-02-04T22:24:33.033Z",
+      "closedAt": null,
+      "channelId": "1336462426064814231",
+      "claimedBy": "hezzat",
+      "transcript": "bot1335720859385598056#7283 (٦‏/٨‏/١٤٤٦ هـ، ١٢:٢٤:٣٣ ص): \nbot1335720859385598056#7283 (٦‏/٨‏/١٤٤٦ هـ، ١٢:٢٤:٣٧ ص): \nbombeno (٦‏/٨‏/١٤٤٦ هـ، ١٢:٢٥:٠٢ ص): السلام عليكم\nhezzat (٦‏/٨‏/١٤٤٦ هـ، ١٢:٢٥:٠٩ ص): وعليكم السلام\nbot1335720859385598056#7283 (٦‏/٨‏/١٤٤٦ هـ، ١٢:٢٦:٠٦ ص): "
+    },
+    {
+      "ticketId": "TICKET-1738710081464",
+      "userId": "700093890669183076",
+      "username": "hezzat",
+      "type": "تصميم بكج",
+      "status": "active",
+      "createdAt": "2025-02-04T23:01:21.464Z",
+      "closedAt": null,
+      "channelId": "1336471688719896576",
+      "claimedBy": null
+    },
+    {
+      "ticketId": "TICKET-1738710245940",
+      "userId": "700093890669183076",
+      "username": "hezzat",
+      "type": "الدعم الفني",
+      "status": "active",
+      "createdAt": "2025-02-04T23:04:05.940Z",
+      "closedAt": null,
+      "channelId": "1336472378091245589",
+      "claimedBy": null
+    },
+    {
+      "ticketId": "TICKET-1738710575579",
+      "userId": "700093890669183076",
+      "username": "hezzat",
+      "type": "الدعم الفني",
+      "status": "active",
+      "createdAt": "2025-02-04T23:09:35.579Z",
+      "closedAt": null,
+      "channelId": "1336473760726778008",
+      "claimedBy": null
+    },
+    {
+      "ticketId": "TICKET-1738711639795",
+      "userId": "700093890669183076",
+      "username": "hezzat",
+      "type": "تصميم أخرى",
+      "status": "closed",
+      "createdAt": "2025-02-04T23:27:19.795Z",
+      "closedAt": "2025-02-04T23:27:32.361Z",
+      "channelId": "1336478224766603264",
+      "claimedBy": "hezzat",
+      "transcript": "bot1335720859385598056#7283 (٦‏/٨‏/١٤٤٦ هـ، ١:٢٧:١٩ ص): \nbot1335720859385598056#7283 (٦‏/٨‏/١٤٤٦ هـ، ١:٢٧:٢٤ ص): "
+    }
+  ]
+}
